@@ -1,0 +1,30 @@
+
+.nav a {
+	color: #5a5a5a;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 14px;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: inline;
+}
+
+.ending a {
+	color: #5a5a5a;
+	font-size: 11px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ending h4 {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 11px;
+	padding-right: 25px;
+}
+
+.ending {
+	border-top: 1px solid #dbdbdb;
+	padding-top: 10px;
+}

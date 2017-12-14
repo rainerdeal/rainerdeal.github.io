@@ -1,0 +1,54 @@
+
+.nav a {
+	color: #5a5a5a;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 14px;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: inline;
+}
+
+.jumbotron {
+	background-image:url('https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/1505488_10151906931282338_1792542964_n.jpg?oh=9f48910892d8a1efd1a2a33f17fbcff2&oe=5539D2C0&__gda__=1430677786_0710f3085ed99f1c512603ce952dbeda');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron .container {
+	position: relative;
+	top:100px;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+}
+
+.jumbotron p {
+	font-size: 20px;
+	color: #fff;
+}
+
+.ending a {
+	color: #5a5a5a;
+	font-size: 11px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ending h4 {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 11px;
+	padding-right: 25px;
+}
+
+.ending {
+	border-top: 1px solid #dbdbdb;
+	padding-top: 10px;
+}
