@@ -1,4 +1,18 @@
 
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/shift.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/shift-bold.woff") format("woff");
+}
+
 .nav a {
 	color: #5a5a5a;
 	font-size: 15px;
@@ -12,7 +26,7 @@
 }
 
 .jumbotron {
-	background-image:url('jumbotron.jpg');
+	background-image:url('images/jumbotron.jpg');
 	height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
