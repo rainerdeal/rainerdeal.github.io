@@ -67,6 +67,11 @@
 	opacity: .5;
 }
 
+.ending {
+	border-top: 1px solid #dbdbdb;
+	padding-top: 10px;
+}
+
 .ending a {
 	color: #5a5a5a;
 	font-size: 11px;
@@ -74,13 +79,9 @@
 	padding-right: 20px;
 }
 
+/* Copyright Designed by Ricky Deal */
 .ending h4 {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-size: 11px;
-	padding-right: 25px;
-}
-
-.ending {
-	border-top: 1px solid #dbdbdb;
-	padding-top: 10px;
+	/*padding-right: 25px;*/
 }
