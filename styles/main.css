@@ -26,6 +26,10 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 }
+.centerNav {
+    padding: 0;
+    text-align: center;
+}
 
 .jumbotron {
     background-image: url("../images/jumbotron.jpg");
