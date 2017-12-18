@@ -1,21 +1,11 @@
 
-@font-face {
-    font-family: 'Shift';
-    font-style: normal;
-    font-weight: normal;
-    src: url("../fonts/shift.woff") format("woff");
-}
 
-@font-face {
-    font-family: 'Shift';
-    font-style: normal;
-    font-weight: bold;
-    src: url("../fonts/shift-bold.woff") format("woff");
+.nav {
+    padding-top: 1%;
+    text-align: center;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: : 1%;
 }
-body {
-    background:black;
-}
-
 .nav li {
     display: inline;
     margin: 4%;
@@ -25,10 +15,6 @@ body {
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
-}
-.centerNav {
-    padding: 0;
-    text-align: center;
 }
 
 .jumbotron {
@@ -52,24 +38,20 @@ body {
     color: #fff;
 }
 
-.projects {
-    background-color: #f7f7f7;
+.container {
+    padding: 1%;
 }
-.projects h3 {
-    font-family: 'Shift', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+.card-body {
+    text-align: center;
 }
-.projects a {
-    color: #00b0ff;
-}
-.thumbnail img:hover {
-    opacity: .5;
+.card-columns {
+    text-align: center;
 }
 
 .ending {
     border-top: 1px solid #dbdbdb;
-    padding-top: 10px;
+    padding-top: 1%;
+    text-align: center;
 }
 .ending a {
     color: #5a5a5a;
@@ -80,6 +62,7 @@ body {
 .ending h4 {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-size: 11px;
-    /*padding-right: 25px;*/
+    padding-right: 25px;
+    text-align: right;
 }
 
