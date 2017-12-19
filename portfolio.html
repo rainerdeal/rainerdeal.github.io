@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
 
-    <TITLE>Ricky's Work</TITLE>
+    <TITLE>Ricky Deal - Portfolio</TITLE>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
@@ -23,66 +25,95 @@
 
 <body>
 
-    <div class="nav">
-        <div class="container">
-            <ul>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="index.html"><img src="images/bitmoji.png" style="width: 125px"></a></li>
-                <li><a href="images/Resume.pdf" download>Resume'</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+    <div class="container">
+        <nav class="navbar sticky-top bg-light">
+            <a href="index.html">About Me</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a class="navbar-brand" href="blog.html"><img src="images/bitmoji.png" width="125" height="125" class="d-inline-block"></a>
+            <a href="images/Resume.pdf" download>Resume'</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </div>
 
     <div class="container">
-        <div class="row">
+        <center><h1>Portfolio</h1></center>
+        <center><p>These are some projects that I have worked on both in and out of school.</p></center>
+        <div class="card-columns">
             <div class="col-sm">
                 <div class="card">
                     <img class="card-img-top" src="images/prt_monitor.jpg">
                     <div class="card-body">
                         <h4 class="card-title">PRT Monitor</h4>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last 3 mins ago</small></p>
-                        <a href="#" class="btn btn-primary">Link to Jumbotron page?</a>
+                        <p class="card-text">Bot 🤖 writen in Python 🐍 that uses Twython and JSON to compile data on WVU's PRT.</p>
+                        <p class="card-text"><small class="text-muted">Python | Linux</small></p>
+                        <a href="https://twitter.com/PRTMonitor" class="btn btn-primary">Twitter</a>
+                        <a href="https://github.com/rainerdeal/PRT-Monitor" class="btn btn-secondary">GitHub</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm">
                 <div class="card">
-                    <img class="card-img-top" src="images/wvu_mobile.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/wvu_mobile.jpg">
                     <div class="card-body">
                         <h4 class="card-title">WVU Mobile</h4>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last 3 mins ago</small></p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text">Student resource application for West Virginia University.</p>
+                        <p class="card-text"><small class="text-muted">Swift | iOS</small></p>
+                        <a href="https://itunes.apple.com/us/app/wvu-mobile/id985848600?mt=8" class="btn btn-primary">iTunes</a>
+                        <a href="https://github.com/WVU-Mobile/WVU-Mobile" class="btn btn-secondary">GitHub</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm">
                 <div class="card">
-                    <img class="card-img-top" src="images/stroboscope.png" alt="Card image cap">
+                    <img class="card-img-top" src="images/stroboscope.png">
                     <div class="card-body">
                         <h4 class="card-title">Stroboscope</h4>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last 3 mins ago</small></p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text">Experimental iOS application that uses a fast Fourier transform (FFT) to analyze music and the LED flashlight on an iPhone as a strobelight.</p>
+                        <p class="card-text"><small class="text-muted">Obj-C | iOS</small></p>
+                        <a href="https://github.com/rainerdeal/Stroboscope" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-sm">
+                <div class="card">
+                    <img class="card-img-top" src="images/opencv.png">
+                    <div class="card-body">
+                        <h4 class="card-title">AI: Image Recognition</h4>
+                        <p class="card-text">Image Recognition AI trained to detect road signs.</p>
+                        <p class="card-text"><small class="text-muted">Python | OpenCV</small></p>
+                        <a href="https://github.com/dmbuck32/AITermProject" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img class="card-img-top" src="images/trek.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Star Trek Computer</h4>
+                        <p class="card-text">Minimalistic natural-language processor with Star Trek: TNG themed queries.</p>
+                        <p class="card-text"><small class="text-muted">Swift | iOS</small></p>
+                        <a href="https://github.com/katelandmesser/Computer" class="btn btn-secondary">GitHub</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="ending">
-        <p> 
-            <a href="https://www.facebook.com/Rainerdeal"> Facebook </a> |
-            <a href="https://twitter.com/rickydeal11"> Twitter </a> |
-            <a href="https://github.com/rainerdeal"> GitHub </a> |
-            <a href="https://www.linkedin.com/in/rickydeal/"> LinkedIn </a>
-        </p>
-        <h4>&copy; <script>document.write(new Date().getFullYear());</script> Designed by Ricky Deal</h4>
+    <div class="container">
+        <div class="ending">
+            <p> 
+                <a href="https://www.facebook.com/Rainerdeal"> Facebook </a> |
+                <a href="https://twitter.com/rickydeal11"> Twitter </a> |
+                <a href="https://github.com/rainerdeal"> GitHub </a> |
+                <a href="https://www.linkedin.com/in/rickydeal/"> LinkedIn </a>
+            </p>
+            <h4>&copy; <script>document.write(new Date().getFullYear());</script> Designed by Ricky Deal</h4>
+        </div>
     </div>
 
- </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
 </html>
 

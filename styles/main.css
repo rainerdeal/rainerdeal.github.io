@@ -1,16 +1,6 @@
 
 
-.nav {
-    padding-top: 1%;
-    text-align: center;
-    border-bottom: 1px solid #dbdbdb;
-    padding-bottom: : 1%;
-}
-.nav li {
-    display: inline;
-    margin: 4%;
-}
-.nav a {
+nav a {
     color: #5a5a5a;
     font-size: 15px;
     font-weight: bold;
