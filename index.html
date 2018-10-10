@@ -1,78 +1,33 @@
-<!doctype html>
-<html lang="en">
+---
+layout: default
+title: Conversations With A Ghost
+---
 
-<head>
+<style>
+    .card-img-top {
+        width: 200px;
+        height: 500px;
+        object-fit: cover;
+    }
 
-    <TITLE>Ricky Deal - About</TITLE>
+    img {
+        min-height: 100%;
+        min-width: 100%;
+    }
+</style>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/images/favicon/manifest.json">
-    <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#000000">
-    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
-    <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-
-    <meta property="og:image" content="https://rainerdeal.github.io/images/pro.JPG">
-    <meta property="og:description" content="Ricky is a python, iOS, web developer, and blogger from Shepherdstown, WV. He graduated from West Virginia University with a degree in computer science.">
-
-    <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="styles/main.css">
-
-</head>
-<body>
-
-    <div class="header bg-light">
-        <a class="navbar-brand" href="index.html"><img src="images/bitmoji.png" width="125" height="125"></a>
-        <nav>
-            <a href="portfolio.html">Portfolio</a>
-            <span class=​"dot">​•</span>​
-            <a href="blog.html">Prose</a>
-            <span class=​"dot">​•​</span>​
-            <a href="images/Resume.pdf" download>Resume'</a>
-            <span class=​"dot">​•​</span>​
-            <a href="contact.html">Contact</a>
-        </nav>
-    </div>
-
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Hey, I'm Ricky.</h1>
-            <p>Python • iOS • Web Developer</p>
+<div class="container">
+    <center><h1>Conversations With A Ghost</h1></center>
+    {% for post in site.posts  %}
+        <div class="card mb-3">
+            <img class="card-img-top" src="{{ post.image_path }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ post.title }}</h5>
+                <p class="card-text">{{ post.excerpt | truncatewords: 15 }}</p>
+                <p class="card-text"><small class="text-muted">{{ post.date | date: '%B %-d, %Y' }}</small></p>
+                <a href="{{ post.url }}" class="btn btn-dark">Read...</a>
+            </div>
         </div>
-    </div>
-
-    <div class="about">
-        <div class="container">
-            <center><h1>About Me</h1></center>
-            <img src="images/pro.JPG" height="400">
-            <p>I'm a software developer 💻 from <a href="http://shepherdstown.info">Shepherdstown</a>, WV.</p>
-            <p>I graduated from <a href="https://www.wvu.edu">West Virginia University</a> (Morgantown, WV) with a degree in computer science. I developed my first iOS app, called Stroboscope, during my sophomore year of college. Stroboscope was a strobe light application and visualizer that could synchronize to music. My partner and I came in first place at the WVU App Challenge and we put Stroboscope on the App Store.</p>
-            <p>I developed my second iOS app, WVU Mobile, as my senior design project. WVU Mobile gives students access to transportation routes, a map of the main campuses, dining hall menus and hours, news and events, mental health services, and more. WVU Mobile is still maintained by myself and my partner and it has over 30,000 downloads. </p>
-            <p>My first internship was for <a href="http://busride.org">Mountain Line Transit Authority</a>, Morgantown's local bus service. While working there, I built a prototype GTFS (General Transit Feed Specification) JSON feed for tracking buses in real time and integrated their geographical bus route data with Google Maps in WVU Mobile. My next internship was with <a href="https://www.indsci.com">Industrial Scientific</a>, on the software quality assurance team. I learned how to use JAMA and JIRA for test case analysis and development. I wrote test scripts and test cases for a new public API that released later that year. I used Python to write the test scripts and taught the other analysts how to use them.</p>
-            <p>A personal project that I have been working on is PRT Monitor. The <a href="https://www.youtube.com/watch?v=iaSaWfw07Sw">PRT</a> (Personal Rapid Transit) is an elevated, railcar system. This is a major mode of transportation for West Virginia University students, though it often breaks down during peak hours and during bad weather. I used a Raspberry Pi and Twython to make a Twitter bot that tweets the status. Anyone can follow the Twitter account to get notified of a change in the status of the PRT. I also designed PRT Monitor to record the statuses so that I can analyze historical data on the PRT. I continue to work on this project in my spare time. </p>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="ending">
-            <p> 
-                <a href="https://www.facebook.com/Rainerdeal"> Facebook </a> |
-                <a href="https://twitter.com/_rickyreal"> Twitter </a> |
-                <a href="https://github.com/rainerdeal"> GitHub </a> |
-                <a href="https://www.linkedin.com/in/rickydeal/"> LinkedIn </a>
-            </p>
-            <h4>&copy; <script>document.write(new Date().getFullYear());</script> Designed by Ricky Deal</h4>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-</body>
-</html>
+    {% endfor %}
+</div>
 

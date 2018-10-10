@@ -1,134 +1,26 @@
-<!doctype html>
-<html lang="en">
+---
+layout: default
+title: Ricky Deal - Portfolio
+---
 
-<head>
-
-    <TITLE>Ricky Deal - Portfolio</TITLE>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/images/favicon/manifest.json">
-    <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#000000">
-    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
-    <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-
-    <meta property="og:image" content="https://rainerdeal.github.io/images/pro.JPG">
-    <meta property="og:description" content="Ricky is a python, iOS, web developer, and blogger from Shepherdstown, WV. He graduated from West Virginia University with a degree in computer science.">
-
-    <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="styles/main.css">
-
-</head>
-<body>
-
-    <div class="header bg-light">
-        <a class="navbar-brand" href="index.html"><img src="images/bitmoji.png" width="125" height="125"></a>
-        <nav>
-            <a href="portfolio.html">Portfolio</a>
-            <span class=​"dot">​•</span>​
-            <a href="blog.html">Prose</a>
-            <span class=​"dot">​•​</span>​
-            <a href="images/Resume.pdf" download>Resume'</a>
-            <span class=​"dot">​•​</span>​
-            <a href="contact.html">Contact</a>
-        </nav>
+<div class="container">
+    <center><h1>Portfolio</h1></center>
+    <div class="card-columns">
+        {% for item in site.portfolio  %}
+            <div class="col-sm">
+                <div class="card">
+                    <img class="card-img-top" src="{{ item.image_path }}">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ item.name }}</h4>
+                        <p class="card-text">{{ item.description }}</p>
+                        <p class="card-text"><small class="text-muted">{{ item.categories[0] }} | {{ item.categories[1] }}</small></p>
+                        {% if item.live_link != null %}
+                            <a href="{{ item.live_link }}" class="btn btn-primary">{{ item.live_link_name }}</a>
+                        {% endif %}
+                        <a href="{{ item.source_link }}" class="btn btn-dark">{{ item.source_link_name }}</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
     </div>
-
-    <div class="container">
-        <center><h1>Portfolio</h1></center>
-        <div class="card-columns">
-            <div class="col-sm">
-                <div class="card">
-                    <img class="card-img-top" src="images/prt_monitor.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title">PRT Monitor</h4>
-                        <p class="card-text">Bot 🤖 writen in Python 🐍 that uses Twython and JSON to compile data on WVU's PRT.</p>
-                        <p class="card-text"><small class="text-muted">Python | Linux</small></p>
-                        <a href="https://twitter.com/PRTMonitor" class="btn btn-primary">Twitter</a>
-                        <a href="https://github.com/rainerdeal/PRT-Monitor" class="btn btn-dark">GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img class="card-img-top" src="images/wvu_mobile.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title">WVU Mobile</h4>
-                        <p class="card-text">Student resource application for West Virginia University.</p>
-                        <p class="card-text"><small class="text-muted">Swift | iOS</small></p>
-                        <a href="https://itunes.apple.com/us/app/wvu-mobile/id985848600?mt=8" class="btn btn-primary">iTunes</a>
-                        <a href="https://github.com/WVU-Mobile" class="btn btn-dark">GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img class="card-img-top" src="images/stroboscope.png">
-                    <div class="card-body">
-                        <h4 class="card-title">Stroboscope</h4>
-                        <p class="card-text">Experimental stobelight application that syncs to music playing in the background.</p>
-                        <p class="card-text"><small class="text-muted">Obj-C | iOS</small></p>
-                        <a href="https://github.com/rainerdeal/Stroboscope" class="btn btn-dark">GitHub</a>
-                    </div>
-                </div>
-            </div>
-             <div class="col-sm">
-                <div class="card">
-                    <img class="card-img-top" src="images/opencv.png">
-                    <div class="card-body">
-                        <h4 class="card-title">AI: Image Recognition</h4>
-                        <p class="card-text">Image Recognition AI trained to detect road signs.</p>
-                        <p class="card-text"><small class="text-muted">Python | OpenCV</small></p>
-                        <a href="https://github.com/dmbuck32/AITermProject" class="btn btn-dark">GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img class="card-img-top" src="images/trek.png">
-                    <div class="card-body">
-                        <h4 class="card-title">Star Trek Computer</h4>
-                        <p class="card-text">Minimalistic natural-language processor with Star Trek: TNG themed queries.</p>
-                        <p class="card-text"><small class="text-muted">Swift | iOS</small></p>
-                        <a href="https://github.com/katelandmesser/Computer" class="btn btn-dark">GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img class="card-img-top" src="images/portfolio.png">
-                    <div class="card-body">
-                        <h4 class="card-title">Portfolio</h4>
-                        <p class="card-text">Portfolio website & blog.</p>
-                        <p class="card-text"><small class="text-muted">HTML//CSS | GitHub Pages</small></p>
-                        <a href="https://rainerdeal.github.io" class="btn btn-primary">Home</a>
-                        <a href="https://github.com/rainerdeal/rainerdeal.github.io" class="btn btn-dark">GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="ending">
-            <p> 
-                <a href="https://www.facebook.com/Rainerdeal"> Facebook </a> |
-                <a href="https://twitter.com/_rickyreal"> Twitter </a> |
-                <a href="https://github.com/rainerdeal"> GitHub </a> |
-                <a href="https://www.linkedin.com/in/rickydeal/"> LinkedIn </a>
-            </p>
-            <h4>&copy; <script>document.write(new Date().getFullYear());</script> Designed by Ricky Deal</h4>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-</body>
-</html>
-
+</div>
