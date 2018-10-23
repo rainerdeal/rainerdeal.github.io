@@ -3,6 +3,7 @@ layout: post
 title: Sample Blog Post Template
 date: 2018-10-23
 image_path: null
+music: "https://open.spotify.com/embed/track/4lRUr1HeCWtCwyHCIfIqTt"
 categories: [blog, hashtag]
 tags: [omg, wow, tag]
 ---
