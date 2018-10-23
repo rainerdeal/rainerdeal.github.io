@@ -24,6 +24,8 @@ layout: default
 
         <center><h1>{{ page.title }}</h1></center>
 
+        <center><p><small class="text-muted">{{ page.date | date: '%B %-d, %Y' }}</small></p></center>
+
         {% if page.music != null %}
             <center><iframe src="{{ page.music }}" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
         {% endif %}
