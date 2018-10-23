@@ -1,5 +1,4 @@
 
-
 html, body {
     overflow-x: hidden;
     font-size: 15pt;
@@ -35,7 +34,7 @@ html, body {
 }
 .jumbotron .container {
     position: relative;
-    top:100px;
+    top: 100px;
 }
 .jumbotron h1 {
     color: #fff;

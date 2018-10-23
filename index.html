@@ -3,31 +3,27 @@ layout: default
 title: Conversations With A Ghost
 ---
 
-<style>
-    .card-img-top {
-        width: 200px;
-        height: 500px;
-        object-fit: cover;
-    }
-
-    img {
-        min-height: 100%;
-        min-width: 100%;
-    }
-</style>
-
 <div class="container">
-    <center><h1>Conversations With A Ghost</h1></center>
-    {% for post in site.posts  %}
-        <div class="card mb-3">
-            <img class="card-img-top" src="{{ post.image_path }}">
-            <div class="card-body">
-                <h5 class="card-title">{{ post.title }}</h5>
-                <p class="card-text">{{ post.excerpt | truncatewords: 15 }}</p>
-                <p class="card-text"><small class="text-muted">{{ post.date | date: '%B %-d, %Y' }}</small></p>
-                <a href="{{ post.url }}" class="btn btn-dark">Read...</a>
-            </div>
-        </div>
-    {% endfor %}
-</div>
 
+    <center><h1>Conversations With A Ghost</h1></center>
+
+    <div class="card-columns">
+        {% for post in site.posts  %}
+            <div class="col-sm">
+                <div class="card">
+
+                    {% if post.image_path != null %}
+                        <img class="card-img-top" src="{{ post.image_path }}">
+                    {% endif %}
+
+                    <div class="card-body">
+                        <h4 class="card-title">{{ post.title }}</h4>
+                        <p class="card-text"><small class="text-muted">{{ post.date | date: '%B %-d, %Y' }}</small></p>
+                        <p class="card-text">{{ post.excerpt | truncatewords: 10 }}</p>
+                        <a class="btn btn-dark btn-sm" href="{{ post.url }}" role="button">Read...</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

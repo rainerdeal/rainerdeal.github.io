@@ -1,5 +1,5 @@
 ---
-image_path: images/portfolio.png
+image_path: images/portfolio/portfolio.png
 name: Portfolio
 description: Portfolio website & blog.
 categories: [HTML//CSS, GitHub Pages]

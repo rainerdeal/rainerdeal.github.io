@@ -1,5 +1,5 @@
 ---
-image_path: images/trek.png
+image_path: images/portfolio/trek.png
 name: Star Trek Computer
 description: 'Minimalistic natural-language processor with Star Trek: TNG themed queries.'
 categories: [Swift, iOS]

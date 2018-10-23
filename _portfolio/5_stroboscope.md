@@ -1,5 +1,5 @@
 ---
-image_path: images/stroboscope.png
+image_path: images/portfolio/stroboscope.png
 name: Stroboscope
 description: Experimental stobelight application that syncs to music playing in the background.
 categories: [Obj-C, iOS]

@@ -1,5 +1,5 @@
 ---
-image_path: images/wvu_mobile.jpg
+image_path: images/portfolio/wvu_mobile.jpg
 name: WVU Mobile
 description: Student resource application for West Virginia University.
 categories: [Swift, iOS]
