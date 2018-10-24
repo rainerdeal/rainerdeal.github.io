@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Ghost in ⟁ the Shell
 date: 2018-10-23
 image_path: /images/blog/motoko_kusanagi.jpg

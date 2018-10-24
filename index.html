@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Conversations With A Ghost
 ---
 
@@ -12,6 +11,21 @@ title: Conversations With A Ghost
             <div class="col-sm">
                 <div class="card">
 
+                    {% if post.explicit == true and post.spoiler == true %}
+                        <div class="card-header">
+                            <span class="badge badge-pill badge-danger">explicit</span>
+                            <span class="badge badge-pill badge-warning">spoilers</span>
+                        </div>
+                    {% elsif post.explicit == true and post.spoiler == false %}
+                        <div class="card-header">
+                            <span class="badge badge-pill badge-danger">explicit</span>
+                        </div>
+                    {% elsif post.explicit == false and post.spoiler == true %}
+                        <div class="card-header">
+                            <span class="badge badge-pill badge-warning">spoilers</span>
+                        </div>
+                    {% endif %}
+
                     {% if post.image_path != null %}
                         <img class="card-img-top" src="{{ post.image_path }}">
                     {% endif %}
@@ -19,7 +33,11 @@ title: Conversations With A Ghost
                     <div class="card-body">
                         <h4 class="card-title">{{ post.title }}</h4>
                         <p class="card-text"><small class="text-muted">{{ post.date | date: '%B %-d, %Y' }}</small></p>
-                        <p class="card-text">{{ post.excerpt | truncatewords: 10 }}</p>
+
+                        {% if post.excerpt == true %}
+                            <p class="card-text">{{ post.excerpt | truncatewords: 10 }}</p>
+                        {% endif %}
+
                         <a class="btn btn-dark btn-sm" href="{{ post.url }}" role="button">Read...</a>
                     </div>
                 </div>

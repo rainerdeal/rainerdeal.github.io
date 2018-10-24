@@ -17,6 +17,11 @@
     <div class="about">
         <div class="container">
             <center><h1>About Me</h1></center>
+
+            {% if page.music != null %}
+                <center><iframe src="{{ page.music }}" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
+            {% endif %}
+
             <img src="/images/pro.JPG" height="400">
 
             {{ content }}

@@ -3,3 +3,22 @@ excerpt_separator: <!--more-->
 
 collections:
   portfolio:
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      excerpt: false
+      spoiler: false
+      explicit: false
+      categories: []
+      tags: []
