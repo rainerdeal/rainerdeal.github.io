@@ -2,7 +2,8 @@
 title: Ghost in ⟁ the Shell
 date: 2018-10-23
 image_path: /images/blog/motoko_kusanagi.jpg
-music: "https://open.spotify.com/embed/user/128381503/playlist/5fUbWsbzfuTtkkU1Txxj9d?si=pUS_HRuBSV2q_dD1fMifTg"
+music: true
+spotify: spotify:user:128381503:playlist:5fUbWsbzfuTtkkU1Txxj9d
 categories: [Blog]
 tags: [motoko, kusanagi, The Ghost in the Shell, about, ricky]
 ---

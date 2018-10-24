@@ -1,7 +1,8 @@
 ---
 layout: about
 title: Ricky Deal - About
-music: "https://open.spotify.com/embed/album/2ROQYFuwNtresrGarebbjN"
+music: true
+soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/111244653&color=%23ff5500
 ---
 
 I'm a software developer 💻 from Washington, DC.

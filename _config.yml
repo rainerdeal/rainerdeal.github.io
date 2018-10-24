@@ -17,6 +17,10 @@ defaults:
       type: "posts"
     values:
       layout: post
+      image_path: null
+      music: false
+      spotify: null
+      soundcloud: null
       excerpt: false
       spoiler: false
       explicit: false
