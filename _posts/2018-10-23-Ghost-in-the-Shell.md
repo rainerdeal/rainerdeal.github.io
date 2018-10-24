@@ -23,9 +23,9 @@ Yeah, so I'm not really the best writer, but I enjoy it nonetheless. I took a po
 
 I'm really just doing this for me. I may or may not try to advertise my work to my friends/family (I haven't decided, yet).
 
-I don't even really know what the content will comprise. Radical political rants... Scifi raves... Raves 😉. Maybe a recipe here or there that I like. I'll most definitely talk about music and programming as those are my main passions.
+I don't even really know what the content will comprise. Radical political rants... Sci-fi raves... Raves 😉. Maybe a recipe here or there that I like. I'll most definitely talk about music and programming as those are my main passions.
 
-The playlist above is called _motoko_kusanagi (the name of the woman in the above picture). I think it's an amazing collection of music inspired by the Ghost in the Shell (best listened to on shuffle). I would love it if you followed me on spotify!
+The playlist above is called _motoko_kusanagi (the name of the woman in the above picture). I think it's an amazing collection of music inspired by the Ghost in the Shell (best listened to on shuffle). I would love it if you followed me on [Spotify](https://open.spotify.com/user/128381503?si=sCIXR-UGQ8WwxdsvVM7m2A)!
 
 - Side note: The embedded Spotify playlists check to see if you are logged in as a premium subscriber (if you're not, you should be). If you aren't you get a low-quality, 30 second preview, but if you *are* then you get full quality, full length songs/playlists. It seems to work really well on Chrome (not tested on Firefox because who uses Firefox??), but it doesn't work very well on Safari. I suspect it's because Safari has some deep anti-cross-site-tracking thing. I hope there is a workaround/fix, but for now just note that Chrome works well.
 
