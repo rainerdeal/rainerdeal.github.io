@@ -10,4 +10,4 @@ I grew up in [Shepherdstown](http://shepherdstown.info), WV, which is a very sma
 
 You can usually find me somewhere downtown, maybe a coffee shop, maybe a rooftop, maybe a lounge... I spend a lot of my time in the underground house scene. I like to experience new music whenever I can. I also enjoy programming and tinkering with my raspbery pi.
 
-A personal project that I have been working on is the [PRT Monitor](https://github.com/rainerdeal/PRT-Monitor). You can find more of my work in my portfolio and you can find my prose in Conversations With A Ghost.
+A personal project that I have been working on is the [PRT Monitor](https://github.com/rainerdeal/PRT-Monitor). You can find more of my work in my portfolio and you can find my prose in Conversations With A Ghost. I wrote a little about the creation of this website and what it means to me in [this]({{ site.baseurl }}{% post_url 2018-10-23-Ghost-in-the-Shell %}) blog post.
