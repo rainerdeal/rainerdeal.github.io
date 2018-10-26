@@ -1,7 +1,7 @@
 ---
-image_path: images/portfolio/prt_monitor.jpg
+image_path: /images/portfolio/prt_monitor.jpg
 name: PRT Monitor
-description: Bot 🤖 writen in Python 🐍 that uses Twython and JSON to compile data on WVU's PRT.
+description: Twitter bot 🤖 written in Python 🐍 that monitors WVU's PRT.
 categories: [Python, Linux]
 live_link: https://twitter.com/PRTMonitor
 live_link_name: Twitter

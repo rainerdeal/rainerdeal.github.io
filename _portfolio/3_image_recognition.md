@@ -1,5 +1,5 @@
 ---
-image_path: images/portfolio/opencv.png
+image_path: /images/portfolio/opencv.png
 name: 'AI: Image Recognition'
 description: Image Recognition AI trained to detect road signs.
 categories: [Python, OpenCV]

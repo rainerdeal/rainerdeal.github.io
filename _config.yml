@@ -1,8 +1,10 @@
 
+permalink: /:categories/:title
 excerpt_separator: <!--more-->
 
 collections:
   portfolio:
+    permalink: /:collection/:name
 
 defaults:
   -
@@ -18,7 +20,7 @@ defaults:
     values:
       layout: post
       image_path: null
-      music: false
+      youtube: null
       spotify: null
       soundcloud: null
       excerpt: false

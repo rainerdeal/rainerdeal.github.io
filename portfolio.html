@@ -15,9 +15,11 @@ title: Ricky Deal - Portfolio
                         <h4 class="card-title">{{ item.name }}</h4>
                         <p class="card-text">{{ item.description }}</p>
                         <p class="card-text"><small class="text-muted">{{ item.categories[0] }} | {{ item.categories[1] }}</small></p>
+
                         {% if item.live_link != null %}
                             <a href="{{ item.live_link }}" class="btn btn-primary">{{ item.live_link_name }}</a>
                         {% endif %}
+
                         <a href="{{ item.source_link }}" class="btn btn-dark">{{ item.source_link_name }}</a>
                     </div>
                 </div>
