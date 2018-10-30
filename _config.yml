@@ -5,6 +5,7 @@ excerpt_separator: <!--more-->
 collections:
   portfolio:
     permalink: /:collection/:name
+    output: true
 
 defaults:
   -
@@ -12,7 +13,13 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "default"
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: details
   -
     scope:
       path: ""

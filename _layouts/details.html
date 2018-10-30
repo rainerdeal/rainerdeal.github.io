@@ -23,17 +23,9 @@ layout: default
 <div class="about">
     <div class="container">
 
-        <center><h1>{{ page.title }}</h1></center>
+        <center><h1>{{ page.name }}</h1></center>
 
-        <center><p><small class="text-muted">{{ page.date | date: '%B %-d, %Y' }}</small></p></center>
-
-        {% if page.soundcloud != null %}
-            {% include soundcloud.html %}
-        {% elsif page.spotify != null %}
-            {% include spotify.html %}
-        {% elsif page.youtube != null %}
-            {% include youtube.html %}
-        {% endif %}
+        <center><p><small class="text-muted">{{ page.description }}</small></p></center>
 
         {{ content }}
 
