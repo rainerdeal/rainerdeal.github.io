@@ -49,7 +49,7 @@
         <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
         <meta content="{{ site.url }}/about/" property="article:author">
     {% endif %}
-    {% if page.image %}
+    {% if page.image_path %}
         <meta content="{{ page.image_path }}" property="og:image">
     {% else %}
         <meta content="{{ site.url }}/images/pro.JPG" property="og:image">
@@ -82,7 +82,7 @@
     {% else %}
         <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
-    {% if page.image %}
+    {% if page.image_path %}
         <meta name="twitter:image:src" content="{{ site.url }}{{ page.image_path }}">
     {% else %}
         <meta name="twitter:image:src" content="{{ site.url }}/images/pro.JPG">
