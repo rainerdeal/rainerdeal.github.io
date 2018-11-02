@@ -1,7 +1,7 @@
 ---
 title: Cutting My Fingers Off
 date: 2018-10-23
-image_path: /images/blog/turnover.jpg
+image: /images/blog/turnover.jpg
 soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/188383713&color=%23ff5500
 categories: [music, turnover]
 tags: [music, turnover, rock, alternative, emo, shoegaze]

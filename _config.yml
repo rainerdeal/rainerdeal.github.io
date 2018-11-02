@@ -1,33 +1,29 @@
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
+# Top level defaults
 title: Conversations With A Ghost
 description: Ricky is a web developer, python hacker, and blogger from DC.
-url: https://rickydeal.io
-author: Ricky Deal
-twitter:
-  username: _rickyreal
-  card: summary
-logo: /images/bitmoji.png
-social:
-  name: Ricky Deal
-  links:
-    - https://twitter.com/_rickyreal
-    - https://www.facebook.com/Rainerdeal
-    - https://www.linkedin.com/in/rickydeal/
-    - https://github.com/rainerdeal
-
 permalink: /:categories/:title
 excerpt_separator: <!--more-->
+twitter: _rickyreal
+url: https://rickydeal.io
 
+# Plugins
+plugins:
+  - jekyll-sitemap
+
+# Collections
 collections:
   portfolio:
     permalink: /:collection/:name
     output: true
 
+# Defaults for different page types
 defaults:
+  -
+    scope:
+      path: "assets/**/*.pdf"
+    values:
+      sitemap: false
   -
     scope:
       path: ""
@@ -46,7 +42,7 @@ defaults:
       type: "posts"
     values:
       layout: post
-      image_path: null
+      image: null
       youtube: null
       spotify: null
       soundcloud: null

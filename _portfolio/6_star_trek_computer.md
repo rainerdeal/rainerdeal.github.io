@@ -1,7 +1,7 @@
 ---
-image_path: /images/portfolio/trek.png
-name: Star Trek Computer
+title: Star Trek Computer
 description: 'Minimalistic natural-language processor with Star Trek: TNG themed queries.'
+image: /images/portfolio/trek.png
 tech_stack: [Swift, iOS]
 live_link: null
 live_link_name: null

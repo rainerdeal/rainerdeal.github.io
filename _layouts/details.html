@@ -5,7 +5,7 @@ layout: default
 <style>
 /* Hero Image for Blog Posts */
 .jumbotron {
-    background-image: url("{{ page.image_path }}");
+    background-image: url("{{ page.image }}");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ layout: default
 }
 </style>
 
-{% if page.image_path != null %}
+{% if page.image != null %}
     <div class="jumbotron">
         <div class="container"></div>
     </div>

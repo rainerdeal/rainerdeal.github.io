@@ -1,7 +1,7 @@
 ---
-image_path: /images/portfolio/portfolio.png
-name: Portfolio
+title: Portfolio
 description: Portfolio website & blog.
+image: /images/portfolio/portfolio.png
 tech_stack: [HTML//CSS, GitHub Pages]
 live_link: https://rickydeal.io
 live_link_name: Home

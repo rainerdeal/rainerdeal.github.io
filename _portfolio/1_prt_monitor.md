@@ -1,7 +1,7 @@
 ---
-image_path: /images/portfolio/prt_monitor.jpg
-name: PRT Monitor
+title: PRT Monitor
 description: Twitter bot 🤖 written in Python 🐍 that monitors WVU's PRT.
+image: /images/portfolio/prt_monitor.jpg
 tech_stack: [Python, Linux]
 live_link: https://twitter.com/PRTMonitor
 live_link_name: Twitter

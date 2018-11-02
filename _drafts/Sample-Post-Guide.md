@@ -5,7 +5,7 @@ permalink: /:categories/:title          # overrides the default URL
 published: true                         # flag to publish post
 
 # Custom Vars
-image_path: null                        # Hero image to display at top of post ex: /path/to/image
+image: null                        # Hero image to display at top of post ex: /path/to/image
 youtube: https://www.youtube.com/embed/Q34dZ6VmI04  # embed URL
 spotify: spotify:track:6TGGxrlz1okTBbrHZugkBI       # URI
 soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/188383713&color=%23ff5500 # embed URL
