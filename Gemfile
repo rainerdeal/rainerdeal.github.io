@@ -1,6 +1,11 @@
 
-source 'https://rubygems.org' do
+source "https://rubygems.org" do
 
-    gem 'github-pages', group: :jekyll_plugins
+    gem "github-pages", group: :jekyll_plugins do
+
+        gem "jekyll-seo-tag"
+        gem "jekyll-sitemap"
+
+    end
 
 end

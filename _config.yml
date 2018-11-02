@@ -1,7 +1,24 @@
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 title: Conversations With A Ghost
-twitter_handle: _rickyreal
 description: Ricky is a web developer, python hacker, and blogger from DC.
+url: https://rickydeal.io
+author: Ricky Deal
+twitter:
+  username: _rickyreal
+  card: summary
+logo: /images/bitmoji.png
+social:
+  name: Ricky Deal
+  links:
+    - https://twitter.com/_rickyreal
+    - https://www.facebook.com/Rainerdeal
+    - https://www.linkedin.com/in/rickydeal/
+    - https://github.com/rainerdeal
+
 permalink: /:categories/:title
 excerpt_separator: <!--more-->
 
