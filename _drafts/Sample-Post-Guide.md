@@ -21,5 +21,34 @@ tags: [these, are, tags]                # used for finding related content (orde
 # note: Defaults are defined in _config.yml
 ---
 
-### Markdown Cheat Sheet
-[Markdown Documentation](https://daringfireball.net/projects/markdown/syntax) by John Gruber
+#### Markdown Cheat Sheet
+- [Markdown Documentation](https://daringfireball.net/projects/markdown/syntax) by John Gruber
+- [GHF Markdown Guide](https://guides.github.com/features/mastering-markdown/)
+
+#### Pictures
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+#### Code Snippets
+    if (isAwesome){
+      return true
+    }
+
+GitHub also supports something called code fencing, which allows for multiple lines without indentation:
+
+```
+if (isAwesome){
+  return true
+}
+```
+
+And if you'd like to use syntax highlighting, include the language:
+
+```javascript
+if (isAwesome){
+  return true
+}
+```
+
+#### Quotes
+> Coffee. The finest organic suspension ever devised... I beat the Borg with it.
+> - Captain Janeway
