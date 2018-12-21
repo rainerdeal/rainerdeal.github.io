@@ -78,9 +78,22 @@ a.card-link:hover {
     text-align: center;
 }
 
-.ending {
-    border-top: 1px solid #dbdbdb;
+.footer {
+    /*border-top: 1px solid #dbdbdb;*/
     padding-top: 1%;
+}
+.footer .bio {
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom:5%;
+}
+.footer .bio .bio-img {
+    float: left;
+    padding-right: 20px;
+}
+.ending {
+    clear: both;
     text-align: center;
 }
 .ending a {
@@ -94,6 +107,8 @@ a.card-link:hover {
     font-size: 11px;
     padding-right: 25px;
     text-align: right;
+    padding-bottom: 1%;
+    margin-bottom: 0;
 }
 
 /* Tablet */
@@ -130,6 +145,13 @@ a.card-link:hover {
 
     .card-columns {
         column-count: 1;
+    }
+
+    .footer .bio .bio-img img {
+        display: none;
+    }
+    .footer .bio .bio-details {
+        clear: both;
     }
 }
 

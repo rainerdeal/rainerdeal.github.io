@@ -1,11 +1,26 @@
-<div class="footer">
+<div class="footer bg-light">
     <div class="container">
+
+        {% unless page.title == "Ricky Deal - About" %}
+            <div class="bio">
+                <div class="bio-img">
+                    <img src="/images/bitmoji.png" width="125">
+                </div>
+                <div class="bio-details">
+                    <div>
+                        <p>Hey, I'm Ricky! I live in Silver Spring, MD and I'm a web developer at <a href="https://www.marriott.com/default.mi">Marriott International</a>.</p>
+                        <p>Let's share an americano!</p>
+                    </div>
+                </div>
+            </div>
+        {% endunless %}
+
         <div class="ending">
             <p>
-                <a href="https://twitter.com/_rickyreal"> Twitter </a> |
-                <a href="https://github.com/rainerdeal"> GitHub </a> |
-                <a href="https://www.linkedin.com/in/rickydeal/"> LinkedIn </a> |
-                <a href="mailto:richard.b.deal@gmail.com"> Email </a>
+                <a href="https://twitter.com/_rickyreal">Twitter</a> |
+                <a href="https://github.com/rainerdeal">GitHub</a> |
+                <a href="https://www.linkedin.com/in/rickydeal/">LinkedIn</a> |
+                <a href="mailto:richard.b.deal@gmail.com">Email</a>
             </p>
             <h4>&copy; <script>document.write(new Date().getFullYear());</script> Designed by Ricky Deal</h4>
         </div>
