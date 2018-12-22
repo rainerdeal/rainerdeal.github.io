@@ -79,7 +79,6 @@ a.card-link:hover {
 }
 
 .footer {
-    /*border-top: 1px solid #dbdbdb;*/
     padding-top: 1%;
 }
 .footer .bio {
@@ -105,7 +104,7 @@ a.card-link:hover {
 .ending h4 {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-size: 11px;
-    padding-right: 25px;
+    padding-right: 1%;
     text-align: right;
     padding-bottom: 1%;
     margin-bottom: 0;
@@ -120,7 +119,6 @@ a.card-link:hover {
 
 /* Mobile */
 @media all and (max-width: 767px) {
-
     html, body {
         font-size: 16px;
     }
@@ -156,8 +154,7 @@ a.card-link:hover {
 }
 
 /* iPhone SE */
-@media all and (max-width: 320px) {
-
+@media all and (max-width: 375px) {
     .header a {
         color: #5a5a5a;
         font-size: 14px;
