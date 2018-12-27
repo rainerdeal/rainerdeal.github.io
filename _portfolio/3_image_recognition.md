@@ -9,25 +9,27 @@ source_link: https://github.com/dmbuck32/AITermProject
 source_link_name: GitHub
 ---
 
-# CS 472 Fall 2017
-Group 5
-Computer Vision Object Detection
+#### Dependencies
+* Coffee ☕️
+* [OpenCV](https://opencv.org)
 
-# Sweet new features
-Select a language from the following:
-* English
-* Japanese
-* Spanish
-* French
+#### Background
+This was a group project I worked on for an Artificial Intelligence class I took my final year at university. Our goal was to train an AI to recognize common road signs. We were able to run a live demo in class by having a group member drive around in Grand Theft Auto V and running our AI in the background. You could observe the AI highlighting and correctly labeling the road signs in the game.
 
-# Ideal Scale Factors
-* Merge - 25
-* Added Lane - 25
-* Pedestrian - 90
-* Lane Ends - 90
-* Stop - 25
-* Stop Ahead - 90
-* Signal Ahead - 90
+#### Details:
+We used an open sourced python library (OpenCV) for training our AI to recognize road signs and we found an open source library of road sign images that we could use. We had to do extensive pre-processing on the images to prepare them for our AI's consumption. Once the images are prepared, we can run the training scripts. This was the most time consuming part of the project as it pushed our computers to the limit and required a lot of trial and error. The final step was to create a basic UI to control the AI. We added language selection and sliders to tweak the sensitivity. We had to be very careful of our settings so that we could run the game and the AI together on one machine. 
 
-# GTA V Sign Recognition
-Run GTA V in Windowed mode 600 x 800. Leave the window in the top left corner of the screen.
+#### Features
+* Language selection:
+  * English
+  * French
+  * Spanish
+  * Japanese
+* Recognized Signs:
+  * Merge
+  * Added Lane
+  * Pedestrian Crossing
+  * Lane Ends
+  * Stop
+  * Stop Ahead
+  * Signal Ahead

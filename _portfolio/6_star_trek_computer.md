@@ -9,43 +9,43 @@ source_link: https://github.com/katelandmesser/Computer
 source_link_name: GitHub
 ---
 
-# Computer
+#### Dependencies
+* Coffee ☕️
+* Extensive knowledge of Star Trek 🖖🏼
 
-This is a minimalistic natural language processor. It takes Star Trek themed queries as verbal input and responds. 
-It's... pre-programmed with rank, species, job, and location of many of the <a href = "http://en.wikipedia.org/wiki/List_of_Star_Trek_characters#Main_cast_and_major_characters_of_Star_Trek:_The_Next_Generation_.28TNG.29_and_Movies">TNG crew </a>. So you could say "Computer, where is Captain Picard?" and it will respond with his pre-programmed location, etc. 
+#### Background
+This was a project for a very strange class in college. TBH, I couldn't even really tell you what the class was or what I was supposed to get out of it, but I remember learning about List, Lispy, and "Automata." The class was taught by someone of the Professor Trelawney vein... Anyway, there was an opportunity to come up with a project and my partner and I decided to do a natural language processor app on iOS. Luckily the professor was a *HUGE* nerd. In *Star Trek: The Next Generation*, the crew of the Enterprise make liberal use of an onboard computer that is omnipresent and omnipotent. They can be standing anywhere on their ship and simply say, "computer..." followed by a command and in a matter of seconds, the computer will respond with an answer. The project goal was just to try to mimic what was on the show as best we could (this project went above and beyond the requirements for the class so the sky was the limit).
 
-Other ship qualities can be modified in real time. You can say "Computer, modify our destination to Kronos." and the next time you ask for the ship's location it will be Kronos (Not too realistic, but I wanted to make it a bit more dynamic).
+#### Details:
+Our version of the computer ended up being a very simple personal assistant with a *Star Trek* flavor. You press a button, triggering the phone to listen to you, and when you speak a command, it is translated from speach, to text and then parsed. In our case, it was looking for keywords and the first thing you said had to be "computer" (which is how it works in the show).
 
+#### Grammar
+###### Sample commands & queries:
+* Computer, what is our current location?
+* Computer, where is the Starship Enterprise?
+* Computer, what is the destination?
+* Computer, open captain’s log.
+* Captain’s log, star date *number*…
+* Computer, is crewman *last_name* on the ship?
+* Computer, where is crewman *last_name*?
+* Computer, what is the mission of the Starship Enterprise?
+* Computer, modify authorization for Crewman *last_name* to *number*.
+* Computer, initiate auto destruct sequence authorization *number*.
 
-~ * GRAMMAR * ~ 
+###### If statement based on second word:
+    Simplification       | Alternatives
+    -------------------- | ---------------------------------------------
+    what                 | location, destination, mission, date
+    where/locate/is      | starship, crewman
+    open                 | captain’s log
+    modify/change/update | crewman (authorization), mission, destination
+    initiate             | destruct
 
-Computer — This word now must come first (The exception is the captain’s log command.)
-
-Here is a list of types of questions/queries that are acceptable:
-
-	Computer, what is our current location?
-	Computer, where is the Starship Enterprise?
-	Computer, what is the destination?
-	Computer, open captain’s log.
-	Captain’s log, Star date <#>…
-	Computer, is crewman <lname> on the ship?
-	Computer, where is crewman <lname>?
-	Computer, what is the mission of the Starship Enterprise?
-	Computer, modify authorization for Crewman <lname> to <#>.
-	Computer, initiate auto destruct sequence authorization <#>. 
-
-If statement based on second word: 
-
-	what — location, destination, mission, date 
-	where, locate, is — starship, crewman, 
-	open — captain’s log
-	modify, change, update — crewman (authorization), mission, destination
-	initiate — destruct 
-
-Case statement based on second word: 
-
-	verb	     	=   	open, is, modify, initiate, locate, change, update
-	pronoun		=   	what
-	adverb      	=   	where
-	identifier    	=    	location, destination, mission, log, <crew member>, destruct
-	crew mem.       =	Captain, Commander, Crewman, Lieutenant, Ensign, Admiral, Lieut. 					Capt. Cmdr.
+###### Case statement based on second word:
+    Simplification | Alternatives
+    -------------- | ----------------------------------------------------------------------------
+    verb           | open, is, modify, initiate, locate, change, update
+    pronoun        | what
+    adverb         | where
+    identifier     | location, destination, mission, log, crew member, destruct
+    crew member    | Captain, Commander, Crewman, Lieutenant, Ensign, Admiral, Lieut. Capt. Cmdr.

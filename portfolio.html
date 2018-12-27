@@ -6,7 +6,7 @@ title: Ricky Deal - Portfolio
 
     <center><h1>Portfolio</h1></center>
 
-    <div class="card-columns">
+    <div class="card-columns animated fadeInUp">
         {% for item in site.portfolio  %}
             <div class="col-sm">
                 <!--<a href="{{ item.url }}" class="card-link">-->
@@ -21,7 +21,7 @@ title: Ricky Deal - Portfolio
                                 <a href="{{ item.live_link }}" class="btn btn-primary">{{ item.live_link_name }}</a>
                             {% endif %}
 
-                            <a href="{{ item.source_link }}" class="btn btn-dark">{{ item.source_link_name }}</a>
+                            <a href="{{ item.url }}" class="btn btn-dark">More</a>
                         </div>
                     </div>
                 <!--</a>-->

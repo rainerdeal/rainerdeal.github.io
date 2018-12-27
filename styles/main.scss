@@ -82,14 +82,14 @@ a.card-link:hover {
     padding-top: 1%;
 }
 .footer .bio {
-    padding-top: 10%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-bottom:5%;
 }
 .footer .bio .bio-img {
     float: left;
-    padding-right: 20px;
+    padding-right: 15%;
 }
 .ending {
     clear: both;
@@ -151,10 +151,16 @@ a.card-link:hover {
     .footer .bio .bio-details {
         clear: both;
     }
+    .ending a {
+        color: #5a5a5a;
+        font-size: 11px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 /* iPhone SE */
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
     .header a {
         color: #5a5a5a;
         font-size: 14px;
