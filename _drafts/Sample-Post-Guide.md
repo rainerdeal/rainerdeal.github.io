@@ -5,7 +5,7 @@ permalink: /:categories/:title          # overrides the default URL
 published: true                         # flag to publish post
 
 # Custom Vars
-image: null                        # Hero image to display at top of post ex: /path/to/image
+image: null                             # Hero image to display at top of post ex: /path/to/image
 youtube: https://www.youtube.com/embed/Q34dZ6VmI04  # embed URL
 spotify: spotify:track:6TGGxrlz1okTBbrHZugkBI       # URI
 soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/188383713&color=%23ff5500 # embed URL
@@ -29,14 +29,14 @@ tags: [these, are, tags]                # used for finding related content (orde
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 #### Code Snippets
-    if (isAwesome){
+    if (isAwesome) {
       return true
     }
 
 GitHub also supports something called code fencing, which allows for multiple lines without indentation:
 
 ```
-if (isAwesome){
+if (isAwesome) {
   return true
 }
 ```
@@ -44,7 +44,7 @@ if (isAwesome){
 And if you'd like to use syntax highlighting, include the language:
 
 ```javascript
-if (isAwesome){
+if (isAwesome) {
   return true
 }
 ```

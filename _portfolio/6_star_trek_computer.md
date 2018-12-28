@@ -21,31 +21,33 @@ Our version of the computer ended up being a very simple personal assistant with
 
 #### Grammar
 ###### Sample commands & queries:
-* Computer, what is our current location?
-* Computer, where is the Starship Enterprise?
-* Computer, what is the destination?
-* Computer, open captain’s log.
-* Captain’s log, star date *number*…
-* Computer, is crewman *last_name* on the ship?
-* Computer, where is crewman *last_name*?
-* Computer, what is the mission of the Starship Enterprise?
-* Computer, modify authorization for Crewman *last_name* to *number*.
-* Computer, initiate auto destruct sequence authorization *number*.
+    Computer, what is our current location?
+    Computer, where is the Starship Enterprise?
+    Computer, what is the destination?
+    Computer, open captain’s log.
+    Captain’s log, star date <number>…
+    Computer, is crewman <last_name> on the ship?
+    Computer, where is crewman <last_name>?
+    Computer, what is the mission of the Starship Enterprise?
+    Computer, modify authorization for Crewman <last_name> to <number>.
+    Computer, initiate auto destruct sequence authorization <number>.
 
 ###### If statement based on second word:
-    Simplification       | Alternatives
-    -------------------- | ---------------------------------------------
-    what                 | location, destination, mission, date
-    where/locate/is      | starship, crewman
-    open                 | captain’s log
-    modify/change/update | crewman (authorization), mission, destination
-    initiate             | destruct
+
+Simplification         | Alternatives
+---------------------- | ---------------------------------------------
+what                   | location, destination, mission, date
+where, locate, is      | starship, crewman
+open                   | captain’s log
+modify, change, update | crewman (auth.), mission, destination
+initiate               | destruct
 
 ###### Case statement based on second word:
-    Simplification | Alternatives
-    -------------- | ----------------------------------------------------------------------------
-    verb           | open, is, modify, initiate, locate, change, update
-    pronoun        | what
-    adverb         | where
-    identifier     | location, destination, mission, log, crew member, destruct
-    crew member    | Captain, Commander, Crewman, Lieutenant, Ensign, Admiral, Lieut. Capt. Cmdr.
+
+Simplification | Alternatives
+-------------- | ----------------------------------------------------------------------------
+verb           | open, is, modify, initiate, locate, change, update
+pronoun        | what
+adverb         | where
+identifier     | location, destination, mission, log, crew member, destruct
+crew member    | Captain, Commander, Crewman, Lieutenant, Ensign, Admiral, Lieut. Capt. Cmdr.

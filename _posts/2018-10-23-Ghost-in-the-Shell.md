@@ -26,9 +26,9 @@ I don't even really know what the content will comprise. Radical political rants
 
 The playlist above is called _motoko_kusanagi (the name of the woman in the above picture). I think it's an amazing collection of music inspired by the Ghost in the Shell (best listened to on shuffle). I would love it if you followed me on [Spotify](https://open.spotify.com/user/128381503?si=sCIXR-UGQ8WwxdsvVM7m2A)!
 
-- Side note: The embedded Spotify playlists check to see if you are logged in as a premium subscriber (if you're not, you should be). If you aren't you get a low-quality, 30 second preview, but if you *are* then you get full quality, full length songs/playlists. It seems to work well on Chrome (not tested on Firefox because who uses Firefox??), but it doesn't work very well on Safari. I suspect it's because Safari has some deep anti-cross-site-tracking thing. I hope there is a workaround/fix, but for now just note that Chrome works well.
+> Side note: The embedded Spotify playlists check to see if you are logged in as a premium subscriber (if you're not, you should be). If you aren't you get a low-quality, 30 second preview, but if you *are* then you get full quality, full length songs/playlists. It seems to work well on Chrome (not tested on Firefox because who uses Firefox??), but it doesn't work very well on Safari. I suspect it's because Safari has some deep anti-cross-site-tracking thing. I hope there is a workaround/fix, but for now just note that Chrome works well.
 
-- Side side note: [Cutting My Fingers Off]({{ site.baseurl }}{% post_url 2018-10-23-Cutting-My-Fingers-Off %}) was my "playground" for testing post styles and checking how the music worked and how the images looked. Just lyrics to a song I love. I was thinking of deleting it, but I kinda like the way it looks lol.
+> Side side note: [Cutting My Fingers Off]({{ site.baseurl }}{% post_url 2018-10-23-Cutting-My-Fingers-Off %}) was my "playground" for testing post styles and checking how the music worked and how the images looked. Just lyrics to a song I love. I was thinking of deleting it, but I kinda like the way it looks lol.
 
 Whelp.
 
