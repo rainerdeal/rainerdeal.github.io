@@ -13,7 +13,7 @@ excerpt: false                          # flag for post excerpt displayed on ind
 spoiler: false                          # flag for spoiler warning on index.html
 explicit: false                         # flag for explicit content warning on index.html
 
-# Predefinded Vars
+# Predefined Vars
 date: 1993-01-26                        # publish date
 categories: [these, are, categories]    # overrides path/URL (order matters)
 tags: [these, are, tags]                # used for finding related content (order doesn't matter)

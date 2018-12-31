@@ -14,7 +14,7 @@ source_link_name: GitHub
 * Xcode 🛠
 
 #### Background
-When I began my college career at [West Virginia University](https://www.wvu.edu), there wasn't an official school app, yet (to be fair, it was very early in the mobile app world in 2011). There was an unoffical app, however, called [iWVU](http://jaredcrawford.org/iwvu/). iWVU served my friends and I well during our freshman year and it was packed with features. The developer ended up getting a job at Apple, which unfortunately means you cannot have an app on the App Store. And just like that, there was no WVU app available. I had become pretty dependant on the app's features and was also becoming interested in iOS development. When it came time for my senior design project, I already had my heart set on WVU Mobile.
+When I began my college career at [West Virginia University](https://www.wvu.edu), there wasn't an official school app, yet (to be fair, it was very early in the mobile app world in 2011). There was an unofficial app, however, called [iWVU](http://jaredcrawford.org/iwvu/). iWVU served my friends and I well during our freshman year and it was packed with features. The developer ended up getting a job at Apple, which unfortunately means you cannot have an app on the App Store. And just like that, there was no WVU app available. I had become pretty dependant on the app's features and was also becoming interested in iOS development. When it came time for my senior design project, I already had my heart set on WVU Mobile.
 
 #### Details:
 WVU Mobile pulls together many different resources that WVU makes available including: News and events feeds, PRT status API, bus route details from Mountain Line Transit Authority, detailed map of campus, and more.
