@@ -2,7 +2,7 @@
 title: Blue Apron Review & Pesto Pasta Recipe
 date: 2019-01-02
 image: /images/blog/blue_apron_logo.png
-categories: [food, blue apron]
+categories: [food]
 tags: [food, blue apron, pesto, pasta, broccoli, lemon ricotta]
 ---
 
