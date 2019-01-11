@@ -1,6 +1,8 @@
+CNAME
 _site
 _drafts
 .DS_Store
+.vscode
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
