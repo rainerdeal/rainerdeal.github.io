@@ -49,6 +49,13 @@ if (isAwesome) {
 }
 ```
 
+#### Footnotes
+- prolefeed[^1]
+- anarcho-socialist[^2]
+
 #### Quotes
 > Coffee. The finest organic suspension ever devised... I beat the Borg with it.
 > - Captain Janeway
+
+[^1]: [Prolefeed](https://en.wikipedia.org/wiki/Prolefeed) is an Orwellian term that describes media designed to distract the masses.
+[^2]: [Anarcho-socialism](https://en.wikipedia.org/wiki/Social_anarchism)
