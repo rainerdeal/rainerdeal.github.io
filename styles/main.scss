@@ -6,6 +6,11 @@ html, body {
     overflow-x: hidden;
     font-size: 15pt;
 }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
 .header {
     text-align: center;
@@ -26,6 +31,10 @@ html, body {
     color: #5a5a5a;
     font-size: 15px;
     font-weight: bold;
+}
+
+.main {
+    flex: 1;
 }
 
 .jumbotron {

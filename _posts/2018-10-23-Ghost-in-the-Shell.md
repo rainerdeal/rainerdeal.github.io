@@ -2,7 +2,7 @@
 title: Ghost in ⟁ the Shell
 date: 2018-10-23
 image: /images/blog/motoko_kusanagi.jpg
-soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/640187358&color=%23ff5500
+soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/333039211&color=%23ff5500
 categories: [ghost]
 tags: [motoko, kusanagi, The Ghost in the Shell, about, ricky, ghost]
 ---
@@ -24,7 +24,7 @@ I'm really just doing this for me. I may or may not try to advertise my work to 
 
 I don't even really know what the content will comprise. Radical political rants... Sci-fi raves... Raves 😉. Maybe a recipe here or there that I like. I'll most definitely talk about music and programming as those are my main passions.
 
-The playlist above is called _motoko_kusanagi (the name of the woman in the above picture). I think it's an amazing collection of music inspired by the Ghost in the Shell (best listened to on shuffle). I would love it if you followed me on [Spotify](https://open.spotify.com/user/128381503?si=sCIXR-UGQ8WwxdsvVM7m2A)!
+~~The playlist above is called _motoko_kusanagi (the name of the woman in the above picture). I think it's an amazing collection of music inspired by the Ghost in the Shell (best listened to on shuffle)~~. I would love it if you followed me on [Spotify](https://open.spotify.com/user/128381503?si=sCIXR-UGQ8WwxdsvVM7m2A)!
 
 > Side note: The embedded Spotify playlists check to see if you are logged in as a premium subscriber (if you're not, you should be). If you aren't you get a low-quality, 30 second preview, but if you *are* then you get full quality, full length songs/playlists. It seems to work well on Chrome (not tested on Firefox because who uses Firefox??), but it doesn't work very well on Safari. I suspect it's because Safari has some deep anti-cross-site-tracking thing. I hope there is a workaround/fix, but for now just note that Chrome works well.
 
