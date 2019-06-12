@@ -28,6 +28,10 @@ tags: [these, are, tags]                # used for finding related content (orde
 #### Pictures
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png){:class="img-group"}{:style="flex: 1;"}
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png){:class="img-group"}{:style="flex: 1;"}
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png){:class="img-group"}{:style="flex: 1;"}
+
 #### Code Snippets
     if (isAwesome) {
       return true

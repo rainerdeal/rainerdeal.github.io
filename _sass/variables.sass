@@ -1,0 +1,19 @@
+
+// ********************************* Variables *********************************
+//$iphone-se: 320px
+//$mobile: 767px
+//$tablet: 991px
+
+// ******************************** Breakpoints ********************************
+// 600px, 900px, 1200px, and 1800px
+@mixin iphone-se
+    @media (max-width: 320px)
+        @content
+
+@mixin mobile
+    @media (max-width: 767px)
+        @content
+
+@mixin tablet
+    @media (max-width: 991px)
+        @content

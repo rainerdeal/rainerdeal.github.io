@@ -1,0 +1,44 @@
+
+html, body
+    overflow-x: hidden
+    font-size: 15pt
+    @include mobile
+        font-size: 12pt
+body
+    display: flex
+    min-height: 100vh
+    flex-direction: column
+.main
+    flex: 1
+
+.card
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+.card-body
+    text-align: center
+.card-columns
+    text-align: center
+    @include tablet
+        column-count: 2
+    @include mobile
+        column-count: 1
+
+.content
+    .container
+        padding-left: 10%
+        padding-right: 10%
+        .pro
+            float: left
+            margin: 10px 20px 10px 0px
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+            max-height: 400px
+            max-width: 100%
+        img
+            max-width: 100%
+            height: auto
+        @include mobile
+            p
+                clear: both
+        .img-group
+            display: flex
+            flex-flow: row wrap
+            height: 400px

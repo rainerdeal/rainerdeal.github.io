@@ -7,7 +7,7 @@ soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tr
 
 I'm a software developer 💻 from Washington, DC.
 
-I grew up in [Shepherdstown](http://shepherdstown.info), WV, which is a very small town in the suburbs of DC and graduated from [West Virginia University](https://www.wvu.edu) (Morgantown, WV). Right now, I work as a web developer for [Marriott International](https://www.marriott.com/marriott/aboutmarriott.mi) and I absolutely love it!
+I grew up in [Shepherdstown](http://shepherdstown.info), WV, which is a very small town in the suburbs of DC, and graduated from [West Virginia University](https://www.wvu.edu) (Morgantown, WV). Right now, I work as a web developer for [Marriott International](https://www.marriott.com/marriott/aboutmarriott.mi) and I absolutely love it!
 
 You can usually find me somewhere downtown, maybe a coffee shop, maybe a rooftop, maybe a lounge, or warehouse... I spend a lot of my time in the underground house scene. I like to experience new music whenever & wherever I can. I also enjoy programming and tinkering with my [Raspberry Pi](https://www.raspberrypi.org).
 

@@ -1,40 +1,23 @@
-<!doctype html>
-<html lang="en">
+---
+layout: default
+---
 
-{% include header.html %}
-
-<body>
-
-    {% include nav.html %}
-
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Hey, I'm Ricky.</h1>
-            <p>Python • iOS • Web Developer</p>
-        </div>
+<div class="jumbotron">
+    <div class="container">
+        <h1>Hey, I'm Ricky.</h1>
+        <p>Python • iOS • Web Developer</p>
     </div>
+</div>
 
-    <div class="about">
-        <div class="container">
-            <center><h1>About Me</h1></center>
+<div class="content">
+    <div class="container">
+        <center><h1>About Me</h1></center>
 
-            {% if page.soundcloud != null %}
-                {% include soundcloud.html %}
-            {% elsif page.spotify != null %}
-                {% include spotify.html %}
-            {% elsif page.youtube != null %}
-                {% include youtube.html %}
-            {% endif %}
+        {% include soundcloud.html %}
 
-            <img class="pro" src="/images/pro.JPG" height="400">
+        <img class="pro" src="/images/pro.JPG" height="400">
 
-            {{ content }}
+        {{ content }}
 
-        </div>
     </div>
-
-    {% include footer.html %}
-
-</body>
-
-</html>
+</div>
