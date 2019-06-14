@@ -8,6 +8,9 @@ author:
   twitter: _rickyreal
 url: https://rickydeal.io
 
+sass:
+  style: compressed # possible values: nested, expanded, compact, and compressed
+
 # Plugins
 plugins:
   - jekyll-sitemap
