@@ -30,8 +30,6 @@ I don't even really know what the content will comprise. Radical political rants
 
 > Side side note: [Cutting My Fingers Off]({{ site.baseurl }}{% post_url 2018-10-23-Cutting-My-Fingers-Off %}) was my "playground" for testing post styles and checking how the music worked and how the images looked. Just lyrics to a song I love. I was thinking of deleting it, but I kinda like the way it looks lol.
 
-Whelp.
+Well, I hope you'll hang with me...
 
-Hope you'll hang with me.
-
-Otherwise it's just me and my ghost 👻.
+Otherwise, it's just me and my ghost 👻.
