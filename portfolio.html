@@ -11,25 +11,27 @@ title: Ricky Deal - Portfolio
     </div>
 
     <div class="card-columns">
+
         {% for item in site.portfolio  %}
+
             <div class="col-sm">
-                <!--<a href="{{ item.url }}" class="card-link">-->
-                    <div class="card">
-                        <img class="card-img-top" src="{{ item.image }}">
-                        <div class="card-body">
-                            <h4 class="card-title">{{ item.title }}</h4>
-                            <p class="card-text">{{ item.description }}</p>
-                            <p class="card-text"><small class="text-muted">{{ item.tech_stack[0] }} | {{ item.tech_stack[1] }}</small></p>
+                <div class="card">
+                    <img class="card-img-top" src="{{ item.image }}">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ item.title }}</h4>
+                        <p class="card-text">{{ item.description }}</p>
+                        <p class="card-text"><small class="text-muted">{{ item.tech_stack[0] }} | {{ item.tech_stack[1] }}</small></p>
 
-                            {% if item.live_link != null %}
-                                <a href="{{ item.live_link }}" class="btn btn-primary">{{ item.live_link_name }}</a>
-                            {% endif %}
+                        {% if item.live_link != null %}
+                            <a href="{{ item.live_link }}" class="btn btn-primary">{{ item.live_link_name }}</a>
+                        {% endif %}
 
-                            <a href="{{ item.url }}" class="btn btn-dark">More</a>
-                        </div>
+                        <a href="{{ item.url }}" class="btn btn-dark">More</a>
                     </div>
-                <!--</a>-->
+                </div>
             </div>
+
         {% endfor %}
+
     </div>
 </div>

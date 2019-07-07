@@ -3,7 +3,6 @@
 title: Conversations With A Ghost
 description: Ricky is a web developer, python hacker, and blogger from DC.
 permalink: /:categories/:title
-excerpt_separator: <!--more-->
 author:
   twitter: _rickyreal
 url: https://rickydeal.io
@@ -55,8 +54,5 @@ defaults:
       youtube: null
       spotify: null
       soundcloud: null
-      excerpt: false
-      spoiler: false
-      explicit: false
       categories: []
       tags: []
