@@ -24,11 +24,6 @@ title: Conversations With A Ghost
                     <div class="card-body">
                         <h4 class="card-title">{{ post.title }}</h4>
                         <p class="card-text"><small class="text-muted">{{ post.date | date: '%B %-d, %Y' }}</small></p>
-
-                        {% if post.excerpt == true %}
-                            <p class="card-text">{{ post.excerpt | truncatewords: 10 }}</p>
-                        {% endif %}
-
                         <a class="btn btn-dark btn-sm" href="{{ post.url }}" role="button">Read</a>
                     </div>
                 </div>

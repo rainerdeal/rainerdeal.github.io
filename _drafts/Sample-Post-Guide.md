@@ -9,9 +9,6 @@ image: null                             # Hero image to display at top of post e
 youtube: https://www.youtube.com/embed/Q34dZ6VmI04  # embed URL
 spotify: spotify:track:6TGGxrlz1okTBbrHZugkBI       # URI
 soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/188383713&color=%23ff5500 # embed URL
-excerpt: false                          # flag for post excerpt displayed on index.html
-spoiler: false                          # flag for spoiler warning on index.html
-explicit: false                         # flag for explicit content warning on index.html
 
 # Predefined Vars
 date: 1993-01-26                        # publish date
