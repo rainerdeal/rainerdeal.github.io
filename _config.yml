@@ -1,7 +1,7 @@
 
 # Top level defaults
 title: Conversations With A Ghost
-description: Ricky is a web developer, python hacker, and blogger from DC.
+description: Ricky is a web developer, python hacker, and blogger in DC.
 permalink: /:categories/:title
 author:
   twitter: _rickyreal
