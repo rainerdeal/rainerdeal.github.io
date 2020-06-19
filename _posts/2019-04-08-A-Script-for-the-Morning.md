@@ -1,7 +1,7 @@
 ---
 title: A Script for the Morning
 date: 2019-04-08
-soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/389104506&color=%23ff5500
+soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/389104506
 tags: [shell, script, scripting, morning, routine, bash]
 ---
 

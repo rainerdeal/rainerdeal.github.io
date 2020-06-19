@@ -2,7 +2,7 @@
 title: Ghost in ⟁ the Shell
 date: 2018-10-23
 image: /images/blog/motoko_kusanagi.jpg
-soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/333039211&color=%23ff5500
+soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/333039211
 categories: [ghost]
 tags: [motoko, kusanagi, The Ghost in the Shell, about, ricky, ghost]
 ---

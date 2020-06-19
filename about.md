@@ -1,13 +1,12 @@
 ---
 layout: about
 title: Ricky Deal - About
-music: true
-soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/111244653&color=%23ff5500
+soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/111244653
 ---
 
 I'm a software developer 💻 in Washington, DC.
 
-I grew up in [Shepherdstown](http://shepherdstown.info), WV, and studied computer science at [West Virginia University](https://www.wvu.edu). Now I'm a web developer at [Marriott International](https://www.marriott.com/marriott/aboutmarriott.mi)!
+I grew up in [Shepherdstown](http://shepherdstown.info), WV, and studied computer science at [West Virginia University](https://www.wvu.edu). Now I'm a web developer in the [hospitality industry](https://en.wikipedia.org/wiki/Hospitality_industry)!
 
 You can usually find me somewhere downtown, maybe a coffee shop, maybe a rooftop, or a lounge. I spend a lot of my time in the underground music scene. I like to experience new music whenever and wherever I can. I also enjoy programming and tinkering with my [Raspberry Pi](https://www.raspberrypi.org).
 
