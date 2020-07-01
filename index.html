@@ -10,9 +10,37 @@ title: Conversations With A Ghost
         </div>
     </div>
 
+    <!-- Featured Post -->
+    <div class="jumbotron jombotron-fluid">
+        <div class="container">
+
+            {% for post in site.posts limit:1 %}
+
+                <style>
+                    /* Hero Image for Blog Posts */
+                    .jumbotron {
+                        background-image: url("{{ post.image }}");
+                        height: 400px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        margin-bottom: 0.5rem
+                    }
+                </style>
+                <h1 class="display-4">{{ post.title }}</h1>
+                <p>{{ post.date | date: '%B %-d, %Y' }}</p>
+                <a class="btn btn-dark btn-lg" href="{{ post.url }}" role="button">Read</a>
+
+            {% endfor %}
+
+        </div>
+    </div>
+
+    <!-- Older Posts -->
     <div class="card-columns">
 
-        {% for post in site.posts  %}
+        {% for post in site.posts offset:1 %}
 
             <div class="col-sm">
                 <div class="card">

@@ -23,15 +23,16 @@ body
             padding: 10px
             background-color: black
 
-.card
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-.card-body
-    text-align: center
 .card-columns
+    //column-count: 1
     @include tablet
         column-count: 2
     @include mobile
         column-count: 1
+    .card
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        .card-body
+            text-align: center
 
 .content
     .container
