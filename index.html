@@ -15,7 +15,6 @@ title: Conversations With A Ghost
         <div class="container">
 
             {% for post in site.posts limit:1 %}
-
                 <style>
                     /* Hero Image for Blog Posts */
                     .jumbotron {
@@ -31,7 +30,6 @@ title: Conversations With A Ghost
                 <h1 class="display-4">{{ post.title }}</h1>
                 <p>{{ post.date | date: '%B %-d, %Y' }}</p>
                 <a class="btn btn-dark btn-lg" href="{{ post.url }}" role="button">Read</a>
-
             {% endfor %}
 
         </div>

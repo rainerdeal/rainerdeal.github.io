@@ -17,9 +17,9 @@ Opening up applications to start your day at work isn't that big of a task to au
 #!/bin/bash
 # Script to open all my work apps and start my day.
 
-echo "Hope you have a fantastic day Ricky! 😊  Starting your work apps..."
+echo "Hope you have a fantastic day Ricky! 😊 Starting your work apps..."
 
-open -a "Safari" https://www.messenger.com https://confluence.marriott.com/#all-updates https://atlassian.marriott.com/secure/Dashboard.jspa
+open -a "Safari" https://confluence.com https://atlassian.com
 open -a "Microsoft Outlook"
 open -a "Spotify"
 open -a "Messages"
