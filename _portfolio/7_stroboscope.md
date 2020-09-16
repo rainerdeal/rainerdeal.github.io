@@ -9,7 +9,7 @@ source_link: https://github.com/rainerdeal/Stroboscope
 source_link_name: GitHub
 ---
 
-#### Dependencies
+#### Dependencies:
 * Coffee ☕️
 * Xcode 🛠
 

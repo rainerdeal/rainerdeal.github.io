@@ -6,7 +6,7 @@ categories: [food]
 tags: [food, blue apron, pesto, pasta, broccoli, lemon ricotta]
 ---
 
-I recently signed up for [Blue Apron](https://www.blueapron.com), on a whim. I've been eating out and buying lunch at work, more often lately. I'm finding it difficult to go to the grocery store and lost a lot of motivation to find recipes online and make them myself. I needed a change and I had heard of Blue Apron, through podcasts, so I was already thinking about trying it. And then another app I like to use, called [Acorns](https://www.acorns.com), had a promotion to sign up. So I'm giving it a shot for a couple weeks.
+I recently signed up for [Blue Apron](https://www.blueapron.com){:target="_blank"}, on a whim. I've been eating out and buying lunch at work, more often lately. I'm finding it difficult to go to the grocery store and lost a lot of motivation to find recipes online and make them myself. I needed a change and I had heard of Blue Apron, through podcasts, so I was already thinking about trying it. And then another app I like to use, called [Acorns](https://www.acorns.com){:target="_blank"}, had a promotion to sign up. So I'm giving it a shot for a couple weeks.
 
 ### How It Works
 Blue Apron has a few options for their subscription model:

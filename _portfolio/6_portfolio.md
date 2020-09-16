@@ -9,7 +9,7 @@ source_link: https://github.com/rainerdeal/rainerdeal.github.io
 source_link_name: GitHub
 ---
 
-#### Dependencies
+#### Dependencies:
 * Coffee ☕️
 * Ruby 💎
 * Jekyll 🌡

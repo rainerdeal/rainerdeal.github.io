@@ -23,7 +23,7 @@ title: Ricky Deal - Portfolio
                         <p class="card-text"><small class="text-muted">{{ item.tech_stack[0] }} | {{ item.tech_stack[1] }}</small></p>
 
                         {% if item.live_link != null %}
-                            <a href="{{ item.live_link }}" class="btn btn-primary">{{ item.live_link_name }}</a>
+                            <a href="{{ item.live_link }}" target="_blank" class="btn btn-primary">{{ item.live_link_name }}</a>
                         {% endif %}
 
                         <a href="{{ item.url }}" class="btn btn-dark">More</a>

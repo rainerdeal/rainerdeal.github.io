@@ -9,14 +9,14 @@ source_link: https://github.com/katelandmesser/Computer
 source_link_name: GitHub
 ---
 
-#### Dependencies
+#### Dependencies:
 * Coffee ☕️
 * Extensive knowledge of Star Trek 🖖🏼
 
 #### Background
-This was a project for a very strange class in college. TBH, I couldn't even really tell you what the class was or what I was supposed to get out of it, but I remember learning about Lisp, Lis.py, and "Automata." The class was taught by someone of the [Professor Trelawney](http://harrypotter.wikia.com/wiki/Sybill_Trelawney) vein... Anyway, there was an opportunity to come up with a project and my partner and I decided to do a natural language processor app on iOS. Luckily the professor was a *HUGE* nerd. In *Star Trek: The Next Generation*, the crew of the Enterprise makes liberal use of an onboard computer that is omnipresent and omnipotent. They can be standing anywhere on their ship and simply say, "computer..." followed by a command and in a matter of seconds, the computer will respond with an answer. The project goal was just to try to mimic what was on the show as best we could (this project went above and beyond the requirements for the class so the sky was the limit).
+This was a project for a very strange class in college. TBH, I couldn't even really tell you what the class was or what I was supposed to get out of it, but I remember learning about Lisp, Lis.py, and "Automata." The class was taught by someone of the [Professor Trelawney](http://harrypotter.wikia.com/wiki/Sybill_Trelawney){:target="_blank"} vein... Anyway, there was an opportunity to come up with a project and my partner and I decided to do a natural language processor app on iOS. Luckily the professor was a *HUGE* nerd. In *Star Trek: The Next Generation*, the crew of the Enterprise makes liberal use of an onboard computer that is omnipresent and omnipotent. They can be standing anywhere on their ship and simply say, "computer..." followed by a command and in a matter of seconds, the computer will respond with an answer. The project goal was just to try to mimic what was on the show as best we could (this project went above and beyond the requirements for the class so the sky was the limit).
 
-#### Details:
+#### Details
 Our version of the computer ended up being a very simple personal assistant with a *Star Trek* flavor. You press a button, triggering the phone to listen to you, and when you speak a command, it is translated from speech, to text and then parsed. In our case, it was looking for keywords and the first thing you said had to be "computer" (which is how it works in the show).
 
 #### Grammar

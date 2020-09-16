@@ -13,7 +13,12 @@ layout: default
             </div>
         </div>
 
-        <center><a href="{{ page.source_link }}" class="btn btn-dark">{{ page.source_link_name }}</a></center>
+        <center>
+            {% if page.live_link != null %}
+                <a href="{{ page.live_link }}" target="_blank" class="btn btn-primary">{{ page.live_link_name }}</a>
+            {% endif %}
+            <a href="{{ page.source_link }}" target="_blank" class="btn btn-dark">{{ page.source_link_name }}</a>
+        </center>
         <center><p><small class="text-muted">{{ page.description }}</small></p></center>
 
         {{ content }}

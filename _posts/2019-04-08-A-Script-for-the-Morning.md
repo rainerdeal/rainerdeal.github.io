@@ -23,7 +23,7 @@ open -a "Safari" https://confluence.com https://atlassian.com
 open -a "Microsoft Outlook"
 open -a "Spotify"
 open -a "Messages"
-open -a "Skype for Business"
+open -a "Visual Studio Code"
 open -a "Microsoft Teams"
 ```
 
