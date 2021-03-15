@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Ricky Deal - About
+title: Ricky // About
 soundcloud: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/111244653
 ---
 
