@@ -1,5 +1,5 @@
 ---
-title: Conversations With A Ghost
+title: Talking To Ghosts
 description: Jekyll Theme/Layout for blog and portfolio.
 image: /images/portfolio/portfolio.png
 tech_stack: [HTML//CSS, GitHub Pages]
@@ -20,4 +20,4 @@ I originally made this website from scratch with HTML/CSS & Bootstrap and I had 
 My long term goal is to make this theme available for others to use.
 
 #### Details:
-Conversations With A Ghost is a simple Jekyll theme for bloggers as well as a portfolio. It has a simple nav bar with straightforward options. It heavily features Bootstrap's card object as the main way to display portfolio items and blog posts.
+Talking To Ghosts is a simple Jekyll theme for bloggers as well as a portfolio. It has a simple nav bar with straightforward options. It heavily features Bootstrap's card object as the main way to display portfolio items and blog posts.
